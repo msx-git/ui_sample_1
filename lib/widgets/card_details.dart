@@ -5,6 +5,16 @@ class CardDetails extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Stack(
+      children: [
+        Align(
+          alignment: Alignment.topLeft,
+          child: Container(
+            width: 250,
+            child: Image.asset('images/mastercardlogo.png'),
+          ),
+        ),
+      ],
+    );
   }
 }
