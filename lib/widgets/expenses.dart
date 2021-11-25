@@ -45,7 +45,7 @@ class Expenses extends StatelessWidget {
                 ),
               ),
             ),
-            const Expanded(flex: 4,child: PieChart()),
+            const Expanded(flex: 3,child: PieChart()),
           ],
         ),
       ],

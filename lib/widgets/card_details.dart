@@ -44,14 +44,14 @@ class CardDetails extends StatelessWidget {
                 Text(
                   '**** **** **** 1998',
                   style: TextStyle(
-                    fontSize: 26,
+                    fontSize: 22,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
                 Text(
                   'PLATINUM CARD',
                   style: TextStyle(
-                    fontSize: 18,
+                    fontSize: 16,
                     fontWeight: FontWeight.bold,
                   ),
                 ),

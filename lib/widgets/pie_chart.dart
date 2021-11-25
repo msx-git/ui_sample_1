@@ -29,15 +29,15 @@ class PieChart extends StatelessWidget {
             ),
             Center(
               child: Container(
-                height: 85,
-                width: 85,
+                height: 66,
+                width: 66,
                 decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     boxShadow: customShadow,
                     color: primaryColor
                 ),
                 child: const Center(
-                  child: Text('\$1473',
+                  child: Text('\$712',
                   style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20),),
                 ),
               ),
