@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:ui_sample_1/data.dart';
 import 'package:ui_sample_1/widgets/cards.dart';
+import 'package:ui_sample_1/widgets/expenses.dart';
 import 'package:ui_sample_1/widgets/wallet_header.dart';
 
 void main() {
@@ -33,14 +34,14 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       backgroundColor: primaryColor,
       body: Column(
-        children: [
-          const SizedBox(height: 8),
-          const SizedBox(
+        children: const [
+          SizedBox(height: 8),
+          SizedBox(
             height: 120,
             child: WalletHeader(),
           ),
-          const Expanded(child: Cards()),
-          Expanded(child: Container()),
+          Expanded(child: Cards()),
+          Expanded(child: Expenses()),
         ],
       ),
     );

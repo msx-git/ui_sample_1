@@ -10,13 +10,13 @@ class Cards extends StatelessWidget {
     return Column(
       children: [
         Container(
-          margin: const EdgeInsets.only(left: 20),
+          margin: const EdgeInsets.only(left: 18),
           alignment: Alignment.topLeft,
           child: const Text(
             'Selected Card',
             style: TextStyle(
               fontWeight: FontWeight.bold,
-              fontSize: 16,
+              fontSize: 20,
             ),
           ),
         ),
@@ -27,7 +27,7 @@ class Cards extends StatelessWidget {
             itemCount: 2,
             itemBuilder: (context, index) {
               return Container(
-                margin: const EdgeInsets.all(20.0),
+                margin: const EdgeInsets.all(18.0),
                 width: MediaQuery.of(context).size.width,
                 decoration: BoxDecoration(
                   color: primaryColor,
